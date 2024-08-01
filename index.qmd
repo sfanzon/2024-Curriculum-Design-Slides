@@ -228,8 +228,8 @@ to Data Science Pathway are:
 
 
 
-## Evaluating Assessment & Feedback design {.smaller}
-### Statistical Models assessment
+## Evaluation of Statistical Models  {.smaller}
+### Assessment & Feedback design
 
 |**Type**                | **Percentage of final grade** |
 |:-----                  |:-----                         |
@@ -336,7 +336,7 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 
 
-# Theme: <br>  Inclusivity <br> in the curriculum {background-color="#cc0164" visibility="uncounted"}
+# Inclusivity <br> in the curriculum {background-color="#cc0164" visibility="uncounted"}
 
 ::: footer
 
@@ -348,7 +348,8 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 
 
-## Approach for evaluation
+## Evaluation of Statistical Models {.smaller}
+### Inclusivity in the Curriculum
 
 ## Highlights of Analysis
 
