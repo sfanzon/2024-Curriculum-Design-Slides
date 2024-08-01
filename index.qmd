@@ -35,90 +35,6 @@ format:
 search: false
 favicon: images/favicon.png
 bibliography: teaching.bib
-
-
-filters:
-  - custom-numbered-blocks
-
-custom-numbered-blocks:
-  groups:
-    thmlike:
-      colors: [f4cce0, db4d92]
-      boxstyle: foldbox.simple
-      collapse: false
-      listin: [mathstuff]
-      numbered: false
-    todos: default  
-  
-  classes:
-    
-    Theorem:
-      group: thmlike
-    
-    Corollary:
-      group: thmlike
-    
-    Conjecture:
-      group: thmlike
-
-    Proposition:
-      group: thmlike
-    
-    Lemma:
-      group: thmlike
-    
-    Question: 
-      group: thmlike
-    
-    Axiom: 
-      group: thmlike
-    
-    Idea: 
-      group: thmlike
-
-    Important: 
-      group: thmlike
-      numbered: false
-
-    Warning: 
-      group: thmlike
-      numbered: false
-
-    Problem: 
-      group: thmlike
-      numbered: false
-
-    Definition:
-      group: thmlike
-      colors: [c6e6ed, 1995ad]
-
-    Notation: 
-      group: thmlike
-      colors: [c6e6ed, 1995ad]
-
-    Remark: 
-      group: thmlike
-      colors: [bce5de, 21aa93]
-
-    Example: 
-      group: thmlike
-      colors: [bce5de, 21aa93]
-
-    Proof:
-      group: thmlike
-      colors: [f1f1f2, c0c0c1]
-      numbered: false
-
-    TODO:
-      label: "To do"
-      colors: [e7b1b4, 8c3236]
-      group: todos
-      listin: [stilltodo]
-      
-    DONE:
-      label: "Done"
-      colors: [cce7b1, 86b754]  
-      group: todos
 ---
 
 
@@ -128,6 +44,18 @@ $
 {{< include macros.tex >}}
 $
 :::
+
+
+
+## Outline {.smaller}
+
+Evaluation of module **Statistical Models** across the themes
+
+1. Curricular Context
+2. Assessment & Feedback Design
+3. Inclusive & Decolonised curriculum
+4. Sustainability in the curriculum
+5. Global competence in the curriculum
 
 
 
@@ -228,8 +156,8 @@ to Data Science Pathway are:
 
 
 
-## Evaluation of Statistical Models  {.smaller}
-### Assessment & Feedback design
+## Evaluation of Assessment & Feedback  {.smaller}
+### Assessment Structure
 
 |**Type**                | **Percentage of final grade** |
 |:-----                  |:-----                         |
@@ -237,22 +165,27 @@ to Data Science Pathway are:
 |  Homework              | 30%                           |
 
 
+
+Analysis backed by the following resources:
+
+- **Inclusive Education Framework** of the University of Hull ([Link](https://www.hull.ac.uk/special/inclusive-education)) 
+
+
+- Inclusive Assessment, Marking & Feedback Policy ([Link](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))
+
+
 Evaluation Framework:
 
 - Inclusive Education Framework Checklist ([Link](https://libguides.hull.ac.uk/ld.php?content_id=33865361))
 
-
-Analysis backed by:
-
-- **Inclusive Education** resources from the University of Hull ([Link](https://www.hull.ac.uk/special/inclusive-education)) 
-
-- Inclusive Assessment, Marking & Feedback Policy ([Link](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))
 
 
 
 ## Inclusive Education Framework Checklist {.smaller}
 
 ![](images/IEF_Checklist.png){width=80%}
+
+
 
 
 ## Highlights of Evaluation {.smaller}
@@ -266,7 +199,7 @@ Analysis backed by:
 - Allows students freedom to prioritise their preferred topics  
 *(all topics are eventuallu assessed via Coursework at the end of the module)*
 
-In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback)
+In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback)
 
 - **Be mindful of student workload and anxieties around assessment**
  
@@ -299,9 +232,11 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
     * Exactly the same as statisticians working in industry would have to do
     * Opportunity to demonstrate depth of understanding
 
-In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback)
+In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback)
 
 - **Give students authentic opportunities to demonstrate their skills, knowledge and self-awareness**
+
+
 
 
 ## Highlights of Evaluation {.smaller}
@@ -328,7 +263,7 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 - Mitigating these issues:
     * Best 7 Weekly Assignments count  
-    *([Hull IEF](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback) + Maths Department Policy)*
+    *([Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback) + Maths Department Policy)*
     * Coursework made available at beginning of T2  
     *(Point 5 of [Inclusive Assessment, Marking & Feedback Policy](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))*
 
@@ -336,7 +271,7 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 
 
-# Inclusivity <br> in the curriculum {background-color="#cc0164" visibility="uncounted"}
+# Inclusive & <br> Decolonised curriculum{background-color="#cc0164" visibility="uncounted"}
 
 ::: footer
 
@@ -348,23 +283,132 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 
 
-## Evaluation of Statistical Models {.smaller}
-### Inclusivity in the Curriculum
+## Evaluation of Inclusivity {.smaller}
 
-## Highlights of Analysis
+Evaluation Framework: Inclusive Education Curriculum Checklist ([Link](https://forms.office.com/pages/responsepage.aspx?id=l4EKSYN7EE-JuYMYm-ODXmLTo7YT8BZOhRXC2YZ8iZRUNURYVThIVzE1WkJaMFlIUDBCS0RKQURCRC4u))
 
-**Good examples identified**
-
-- one
-
-**Areas of Enhancement**
-
-- two
+![](images/IC_Checklist_1.png){width=75%}
 
 
-## Recommended Enhancements
 
-- For more details see Reference 1 in the [Annotated Bibliography](/files/annotated_bibliography.pdf)
+
+##  {.smaller}
+
+![](images/IC_Checklist_2.png){width=80%}
+
+
+
+##  {.smaller}
+
+![](images/IC_Checklist_3.png){width=80%}
+
+
+
+
+
+## Highlights of Evaluation {.smaller}
+### Good example
+
+`My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
+
+- I always upload teaching material at least 24h before sessions
+- Statistical Models: I inherited teaching material in the form of PDF format slides 
+- I wanted to use something more accessible than PDFs for my slides 
+
+- Employed digital publication framework [Quarto](https://quarto.org) to write slides  
+*(The present set of slides is made with Quarto)*
+
+
+
+## Highlights of Evaluation {.smaller}
+### Good example
+
+`My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
+
+- My slides are available in digital HTML format to view in browsers ([Link](https://www.silviofanzon.com/2024-Statistical-Models-Slides/))
+    * Allows for easy viewing on various devices, including smartphones
+    * Facilitates the use of accessibility features on smart devices  
+    *(e.g. text magnification, contrast enhancement)*
+
+
+
+
+## Highlights of Evaluation {.smaller}
+### Good example
+
+`My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
+
+
+- Digital format allows for compatibility with text-to-speech software  
+*(overcoming the limitations often encountered with PDFs)* 
+    * Beneficial to auditory learners
+    * Beneficial to students with visual impairments
+    
+- My slides are also available in PDF version on Canvas
+    * Easy to print
+
+
+In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducationframework/Curriculum): **Demonstrate inclusion where possible**
+ 
+
+
+
+## Highlights of Evaluation {.smaller}
+### Area of Enhancement
+
+`I work with students as active partners in curriculum design and delivery`
+
+- Statistical Models comprises 2 Weekly Lectures of 2h each
+
+- The amount of content covered in class is quite high
+
+- Current lectures design is classical
+    * Deliver content with slides and whiteboard
+    * Foster engagement and assess understanding with direct questions
+
+- Mixed results
+    * Students did not feel part of the class
+    * Low engagement during some of the more technical lectures
+
+
+
+## Recommended Enhancements {.smaller}
+
+I wanted to find alternative teaching techniques to 
+
+- Foster student engagement 
+- Make students into a collective
+
+Proposed enhancements *(Formative assessment)*
+
+- *Team tasks*
+    * Students work collaboratively in teams on a problem
+    * Feedback shared across the group with teacher prompts
+
+- *Students as Teachers*
+    * At the end of the task students explain solution to each other
+
+- These approaches are discussed in Reference 1 in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+
+
+
+
+## Recommended Enhancements {.smaller}
+
+How to implement enhancements
+
+- Already included numerous worked examples in the Statistical Models Slides
+- Easily transform these examples into short tasks for students to solve in pairs
+- To further stimulate student interest I can include tasks grounded in real-world applications
+
+Possible impediments
+
+- I have already attempted this approach with a couple of tasks this year
+- Students really appreciated
+- Next year I plan to have 1 interactive task per lecture
+- Low effort high gain strategy -- I see no impediments in implementing it
+
+
 
 
 
@@ -378,6 +422,12 @@ In line with [Hull's Inclusive Education Framework](https://libguides.hull.ac.uk
 
 :::
 
+
+## Evaluation of Sustainability {.smaller}
+
+Evaluation Framework: Inclusive Education Curriculum Checklist ([Link](https://forms.office.com/pages/responsepage.aspx?id=l4EKSYN7EE-JuYMYm-ODXmLTo7YT8BZOhRXC2YZ8iZRUNURYVThIVzE1WkJaMFlIUDBCS0RKQURCRC4u))
+
+![](images/IC_Checklist_1.png){width=75%}
 
 
 ## Approach for evaluation
