@@ -90,7 +90,7 @@ Evaluation of module **Statistical Models** across the themes
 
 ## Module Competencies {.smaller}
 
-|PCs | PC Summary | Rationale |
+|PCs | Programme Competency Summary | Mapping to Statistical Models |
 |:--:|:-----------|:------------|
 |PC1 | Performing calculations                 |   Study how Linear Models work      |
 |PC2 | Solve mathematical problems             |   Study why Linear Models work      |
@@ -99,7 +99,7 @@ Evaluation of module **Statistical Models** across the themes
 |PC5 | Communication with experts and non-experts| How to report the findings |
 |PC7 | Using computer technology to obtain numerical solutions | How to use Linear Models in statistical software (R)|
 |PC8 | Learning and working independently        | Assessment promotes independent study |
-: {tbl-colwidths="[8,46,46]"}
+: {tbl-colwidths="[6,47,47]"}
 
 
 
@@ -174,7 +174,7 @@ Analysis backed by the following resources:
 - Inclusive Assessment, Marking & Feedback Policy ([Link](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))
 
 
-Evaluation Framework:
+**Evaluation Framework:**
 
 - Inclusive Education Framework Checklist ([Link](https://libguides.hull.ac.uk/ld.php?content_id=33865361))
 
@@ -183,7 +183,7 @@ Evaluation Framework:
 
 ## Inclusive Education Framework Checklist {.smaller}
 
-![](images/IEF_Checklist.png){width=80%}
+![](images/IEF_Checklist.png){.r-stretch}
 
 
 
@@ -285,22 +285,22 @@ In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclu
 
 ## Evaluation of Inclusivity {.smaller}
 
-Evaluation Framework: Inclusive Education Curriculum Checklist ([Link](https://forms.office.com/pages/responsepage.aspx?id=l4EKSYN7EE-JuYMYm-ODXmLTo7YT8BZOhRXC2YZ8iZRUNURYVThIVzE1WkJaMFlIUDBCS0RKQURCRC4u))
+**Evaluation Framework:** Inclusive Education Curriculum Checklist ([Link](https://forms.office.com/pages/responsepage.aspx?id=l4EKSYN7EE-JuYMYm-ODXmLTo7YT8BZOhRXC2YZ8iZRUNURYVThIVzE1WkJaMFlIUDBCS0RKQURCRC4u))
 
-![](images/IC_Checklist_1.png){width=75%}
+![](images/IC_Checklist_1.png){.r-stretch}
 
-
-
-
-##  {.smaller}
-
-![](images/IC_Checklist_2.png){width=80%}
 
 
 
 ##  {.smaller}
 
-![](images/IC_Checklist_3.png){width=80%}
+![](images/IC_Checklist_2.png){.r-stretch}
+
+
+
+##  {.smaller}
+
+![](images/IC_Checklist_3.png){.r-stretch}
 
 
 
@@ -423,22 +423,95 @@ Possible impediments
 :::
 
 
+
+
 ## Evaluation of Sustainability {.smaller}
 
-Evaluation Framework: Inclusive Education Curriculum Checklist ([Link](https://forms.office.com/pages/responsepage.aspx?id=l4EKSYN7EE-JuYMYm-ODXmLTo7YT8BZOhRXC2YZ8iZRUNURYVThIVzE1WkJaMFlIUDBCS0RKQURCRC4u))
+**Evaluation Framework:** Evaluated curriculum against
 
-![](images/IC_Checklist_1.png){width=75%}
+::: {.column width="60%"}
+
+<br>
+
+- UN Sustainable Development Goals (SDGs)
+    * [sdgs.un.org/goals](https://sdgs.un.org/goals) 
+
+<br>
+
+- Education for Susatainable Development (ESD) Competencies
+    * [Link to ESD Guidance](https://www.advance-he.ac.uk/knowledge-hub/education-sustainable-development-guidance)
+
+:::
 
 
-## Approach for evaluation
+::: {.column width="39%"}
 
-- evaluated curriculum against SDGs and ESD competencies
+![](images/SDG_logo.png){.absolute top=120 left=700 width="300"}
 
-- My module’s Programme Competencies map closely to ESD competencies 1, 4 & 7 (explain how these are taught and assessed, note intent to articulate this mapping to students)
+![](images/ESD_logo.png){.absolute top=430 left=700 width="300"}
+
+:::
+
+
+
+
+
+## Framework 1 - UN SDGSs {.smaller}
+
+::: {.column width="60%"}
+
+<br>
+
+**Goal 4: Quality Education**
+
+`Ensure inclusive and quality education for all and promote lifelong learning`
+
+:::
+
+::: {.column width="39%"}
+![](images/SDG4.png){.absolute top=140 left=750 width="250" height="250"}
+:::
+
+
+
+
+
+
+
+## Framework 1 - UN SDGSs {.smaller}
+
+
+
+::: {.column width="60%"}
+
+<br>
+
+**Goal 8: Decent Work and Economic Growth**
+
+`Promote inclusive and sustainable economic growth, employment and decent work for all`
+
+:::
+
+::: {.column width="39%"}
+![](images/SDG8.png){.absolute top=140 left=750 width="250" height="250"}
+:::
+
+
+
+
+
+
+
+## Framework 1 - UN SDGSs {.smaller}
+
+
 
 - SDGs already present in my module:
 4 Quality Education (use principles of TP to evidence)
 16 Peace and Justice (explain case study activity, note positive student feedback)
+
+
+- My module’s Programme Competencies map closely to ESD competencies 1, 4 & 7 (explain how these are taught and assessed, note intent to articulate this mapping to students)
 
 
 - Plan to expand case studies for students to select from several appropriate SDG-aligned themes (e.g. SDG 5, 8, 12)
