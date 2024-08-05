@@ -12,8 +12,9 @@ author:
 format: 
     revealjs:
       theme: [default, custom-theme-slides.scss]
-      slide-number: false
-      progress: false
+      slide-number: true
+      progress: true
+      footer: "[Bibliography](/index.html#/references) &nbsp;&nbsp;&nbsp;&nbsp; [License](/index.html#/license) &nbsp;&nbsp;&nbsp;&nbsp; [Contact](https://www.silviofanzon.com/contact)"
       transition: none
       background-transition: fade
       preview-links: true
@@ -27,14 +28,16 @@ format:
       code-block-border-left: "#31BAE9"
       code-line-numbers: false
       toc: false
+      bibliography: bibliography.bib
+      csl: elsevier-with-titles.csl
       include-in-header:
         - text: |
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
 
-search: false
+
 favicon: images/favicon.png
-bibliography: teaching.bib
+
 ---
 
 
@@ -73,19 +76,19 @@ Evaluation of module **Statistical Models** across the themes
 
 
 ## Micro Context {.smaller}
-### Statistical Models
 
-- Taught this module once
-- Module Level: 2nd Year BSc Mathematics (L5)
-- Trimester: T2
+**Module details:**
+
+- Module Title: Statistical Models
+- Module Level: 2nd Year BSc Mathematics T2 (L5)
 - Class size: 20 Students
 - Format: 5h contact per week
     * 2 Lectures of 2h
     * Tutorial of 1h
 - Assessment Strategy:
-    * 10 weekly Worksheets
-    * Portfolio of statistical analyses + discussion
+    * 10 weekly Worksheets + Portfolio of statistical analyses
 
+**My experience:** Taught this module once in T2 2023/24
 
 
 ## Module Competencies {.smaller}
@@ -168,10 +171,10 @@ to Data Science Pathway are:
 
 Analysis backed by the following resources:
 
-- **Inclusive Education Framework** of the University of Hull ([Link](https://www.hull.ac.uk/special/inclusive-education)) 
+- **Inclusive Education Framework** (IEF) of Hull University ([Link](https://www.hull.ac.uk/special/inclusive-education)) 
 
 
-- Inclusive Assessment, Marking & Feedback Policy ([Link](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))
+- **Inclusive Assessment, Marking & Feedback Policy** of Hull University ([Link](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))
 
 
 **Evaluation Framework:**
@@ -244,27 +247,29 @@ In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclu
 
 `Mathematics assessment is designed at the programme level,   giving students a manageable assessment load`
 
+
+**Assessments sometime clash:**
+
 - Mathematics assessment is **indeed** designed at the programme level
 
 - Managing assessment load is **tricky** 
     * Due to inherently high amount of content for Maths disciplines
-    * Partly due to limited staff and high turnover
 
-
-
-## Highlights of Evaluation {.smaller}
-### Area of Enhancement
-
-`Mathematics assessment is designed at the programme level,   giving students a manageable assessment load`
-
-- Statistical Models students in T2 had:
+- **Example:** Statistical Models students in T2 had
     * At least 1 more module with 10 Weekly Assignments
-    * At least 1 more module with Coursework due in last week
+    * At least 1 more module with Coursework due in last week of T2
 
-- Mitigating these issues:
-    * Best 7 Weekly Assignments count  
-    *([Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback) + Maths Department Policy)*
-    * Coursework made available at beginning of T2  
+
+
+## Recommended Enhancement {.smaller}
+
+**Overassessment issue is structural and hard to solve**
+
+**Partial solutions to mitigate issues:**
+
+- Best 7 Weekly Assignments count
+    * *([Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback) + Maths Department Policy)*
+- I made Coursework available at beginning of T2 + discussed in class    
     *(Point 5 of [Inclusive Assessment, Marking & Feedback Policy](https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf))*
 
 
@@ -311,8 +316,10 @@ In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclu
 
 `My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
 
-- I always upload teaching material at least 24h before sessions
+**Digital Notes:**
+
 - Statistical Models: I inherited teaching material in the form of PDF format slides 
+
 - I wanted to use something more accessible than PDFs for my slides 
 
 - Employed digital publication framework [Quarto](https://quarto.org) to write slides  
@@ -358,57 +365,83 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 `I work with students as active partners in curriculum design and delivery`
 
-- Statistical Models comprises 2 Weekly Lectures of 2h each
+**Low engagement in Tutorials:**
 
-- The amount of content covered in class is quite high
-
-- Current lectures design is classical
-    * Deliver content with slides and whiteboard
-    * Foster engagement and assess understanding with direct questions
-
-- Mixed results
-    * Students did not feel part of the class
-    * Low engagement during some of the more technical lectures
+- Statistical Models comprises weekly 1-hour Tutorials
+- Lecturer reviews solutions to the previous week’s worksheet
+- Traditional format which often leads to passive learning
+    * students receive explanations for exercises they may have already completed
+    * low attendance and engagement
 
 
 
-## Recommended Enhancements {.smaller}
+## Highlights of Evaluation {.smaller}
+### Area of Enhancement
 
-I wanted to find alternative teaching techniques to 
+**Possible solution:**
 
-- Foster student engagement 
-- Make students into a collective
+- I considered involving students by having them present their solutions
 
-Proposed enhancements *(Formative assessment)*
-
-- *Team tasks*
-    * Students work collaboratively in teams on a problem
-    * Feedback shared across the group with teacher prompts
-
-- *Students as Teachers*
-    * At the end of the task students explain solution to each other
-
-- These approaches are discussed in Reference 1 in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+- I successfully implemented this approach in past modules
+    * Led to more popular and well-attended tutorials 
+    * Students engaged in friendly competition, debating their solutions
+    * Fostered a sense of active participation in curriculum delivery
+    
+**Goal:** Apply the same approach to the Statistical Models tutorials
 
 
 
+## Highlights of Evaluation {.smaller}
+### Area of Enhancement
 
-## Recommended Enhancements {.smaller}
+**Major impediments:**
 
-How to implement enhancements
+- Many exercises in Statistical Models require coding in R
+- **Most students lack access to laptops**    
+*(raising concerns about digital exclusion)*
+- Holding all classes in computer labs is not feasible
 
-- Already included numerous worked examples in the Statistical Models Slides
-- Easily transform these examples into short tasks for students to solve in pairs
-- To further stimulate student interest I can include tasks grounded in real-world applications
+**Positive observation:**
 
-Possible impediments
-
-- I have already attempted this approach with a couple of tasks this year
-- Students really appreciated
-- Next year I plan to have 1 interactive task per lecture
-- Low effort high gain strategy -- I see no impediments in implementing it
+- Every student has access to a smartphone or tablet
 
 
+
+## Highlights of Evaluation {.smaller}
+### Area of Enhancement
+
+**Exploring the literature:**
+
+- Found the reference [@betts] very useful
+    * My notes on [@betts] are found in **Reference 1** in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+
+- Explores challenge of integrating technology into teaching
+
+- Offers practical guidance by presenting 5 real-world examples of innovative technology use in education
+
+- Real-world example #2
+    * Promoting self-directed learning through interactive presentations with **hyperlinks**
+
+
+
+## Recommended Enhancement {.smaller}
+
+**Practical solution:** How to involve students in Tutorials
+
+- Include links to online R compilers in my tutorial solutions *(e.g. [mycompiler.io](https://www.mycompiler.io/online-r-compiler))*
+
+- Provide R code with missing sections
+
+- Students can complete and run code in a browser
+    * can be done on **tablets** or **smartphones** $\implies$ *no computers needed*
+
+
+- Students can share the online link to their code with me
+    * I can display their work on the projector
+    * facilitate group discussion around their solution
+
+
+**Outcome:** Students can present solutions $\implies$ *involved in curriculum delivery*
 
 
 
@@ -456,33 +489,15 @@ Possible impediments
 
 
 
-## Framework 1 - UN SDGSs {.smaller}
+## Framework 1 - SDGs {.smaller}
+### Statistical models meets SDGs 4 and 8
 
 ::: {.column width="60%"}
-
-<br>
 
 **Goal 4: Quality Education**
 
 `Ensure inclusive and quality education for all and promote lifelong learning`
 
-:::
-
-::: {.column width="39%"}
-![](images/SDG4.png){.absolute top=140 left=750 width="250" height="250"}
-:::
-
-
-
-
-
-
-
-## Framework 1 - UN SDGSs {.smaller}
-
-
-
-::: {.column width="60%"}
 
 <br>
 
@@ -493,49 +508,133 @@ Possible impediments
 :::
 
 ::: {.column width="39%"}
-![](images/SDG8.png){.absolute top=140 left=750 width="250" height="250"}
+![](images/SDG4.png){.absolute top=120 left=750 width="250" height="250"}
+
+![](images/SDG8.png){.absolute top=390 left=750 width="250" height="250"}
+
 :::
 
 
 
 
+## Good examples {.smaller}
+### SDG 4: Quality Education
+
+**Perform statistical analyses of real-world datasets:** 
+
+- Task aligns with SDG 4 by fostering high-quality education
+- Equips students with competencies in data interpretation + critical thinking
+- Prepares students for real-world challenges
+
+
+**Report + Discuss statistical analyses:** 
+
+- Students develop communication skills and ability to convey findings
+
+- Students become better prepared for future professional roles
+
+- Supports SDG 4 by ensuring that students are not just consumers of knowledge but active contributors
 
 
 
-## Framework 1 - UN SDGSs {.smaller}
+## Good examples {.smaller}
+### SDG 8: Decent Work and Economic Growth
+
+**Analysis of the ENRON scandal by looking at dataset of stock prices:** 
+
+- Task directly addresses SDG 8 by focusing on an instance of corporate governance failure
+    * ENRON scandal had significant implications for economic stability and ethical business practices
+
+- Students understand the impact of statistical analyses on business ethics and policy-making 
+
+- Equips students with knowledge to contribute positively to economic growth and decent work environments in their future careers
 
 
 
-- SDGs already present in my module:
-4 Quality Education (use principles of TP to evidence)
-16 Peace and Justice (explain case study activity, note positive student feedback)
 
+## Framework 2 - ESD Competencies Checklist {.smaller}
 
-- My module’s Programme Competencies map closely to ESD competencies 1, 4 & 7 (explain how these are taught and assessed, note intent to articulate this mapping to students)
-
-
-- Plan to expand case studies for students to select from several appropriate SDG-aligned themes (e.g. SDG 5, 8, 12)
-
-- Research staff/student co-design initiatives for SDG module integration
-
-- ESD5 (collaborative working) could suit my module – explore recent pedagogic innovations in my discipline
+![](images/ESD_Checklist.png){.r-stretch}
 
 
 
-## Highlights of Analysis
 
-**Good examples identified**
+## ESD Competencies {.smaller}
+### Good examples
 
-- one
+**Systems thinking:**
 
-**Areas of Enhancement**
+- Statistical regressive models are designed to understand relationships between variables
 
-- two
+- Nested models are used to compare relationships on different scales
+
+- All Statistical Models can handle uncertainty
 
 
-## Recommended Enhancement
+**Anticipatory or Future thinking:**
 
-- For more details see Reference 2 in the [Annotated Bibliography](/files/annotated_bibliography.pdf)
+- Module includes statistical analyses of real-world examples in Economics and Finance
+
+- Outcome of statistical analyses is used to inform policy decisions
+
+
+
+
+## ESD Competencies {.smaller}
+### Area of Enhancement
+
+``Collaborative working``
+
+**Little room for collaboration in Lectures:**
+
+- Statistical Models comprises 2 weekly 2-hour Lectures
+
+- Current lectures design:
+    * Lecturer delivers content with slides and whiteboard
+    * Lecturer fosters engagement with direct questions
+
+- This traditional format tends to 
+    * foster passive learning 
+    * lacks opportunities for student **collaboration**
+
+
+
+## Highlights of Evaluation {.smaller}
+### Area of Enhancement
+
+**Exploring the literature:**
+
+- Found the reference [@pokorny_assess] very useful
+    * My notes on [@pokorny_assess] are found in **Reference 2** in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+
+- Discusses the role of assessment in education
+
+- Explores collaborative learning in formative assessment
+
+- *Team tasks*
+    * Students work collaboratively towards solvinga a problem task
+
+- *Students as Teachers*
+    * At the end of the problem task students explain solution to each other
+
+
+
+
+## Recommended Enhancement {.smaller}
+
+**Practical solution:** Foster collaboration during Lectures
+
+- Already included numerous worked examples in the Statistical Models Slides
+- Easily transform these examples into short tasks for students to solve in pairs
+- To promote interest I can include tasks grounded in real-world applications
+
+
+**Possible impediments:**
+
+- I have already attempted this approach with a couple of tasks this year
+- Students really appreciated
+- Next year I plan to have 1 interactive task per Lecture
+- Low effort high gain strategy -- I see no impediments in implementing it
 
 
 
@@ -565,6 +664,7 @@ Possible impediments
 ## Recommended Enhancement
 
 - For more details see Reference 3 in the [Annotated Bibliography](/files/annotated_bibliography.pdf)
+
 
 
 
@@ -603,10 +703,14 @@ BibTex citation:
 
 ::: footer
 
+<a href="javascript:history.back()">Go Back</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
 [Contact Me](https://www.silviofanzon.com/contact)
 
 :::
 
 
 
-footer: "[Bibliography](/files/annotated_bibliography.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [License](/index.html#/license) &nbsp;&nbsp;&nbsp;&nbsp; [Contact](https://www.silviofanzon.com/contact)"
+
+## References
+### Link to [Annotated Bibliography](/files/annotated_bibliography.pdf)

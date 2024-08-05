@@ -94,8 +94,44 @@
     code span.va { color: #111111; } /* Variable */
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -432,11 +468,10 @@
 </section>
 <section id="micro-context" class="slide level2 smaller">
 <h2>Micro Context</h2>
-<h3 id="statistical-models">Statistical Models</h3>
+<p><strong>Module details:</strong></p>
 <ul>
-<li>Taught this module once</li>
-<li>Module Level: 2nd Year BSc Mathematics (L5)</li>
-<li>Trimester: T2</li>
+<li>Module Title: Statistical Models</li>
+<li>Module Level: 2nd Year BSc Mathematics T2 (L5)</li>
 <li>Class size: 20 Students</li>
 <li>Format: 5h contact per week
 <ul>
@@ -445,10 +480,10 @@
 </ul></li>
 <li>Assessment Strategy:
 <ul>
-<li>10 weekly Worksheets</li>
-<li>Portfolio of statistical analyses + discussion</li>
+<li>10 weekly Worksheets + Portfolio of statistical analyses</li>
 </ul></li>
 </ul>
+<p><strong>My experience:</strong> Taught this module once in T2 2023/24</p>
 </section>
 <section id="module-competencies" class="slide level2 smaller">
 <h2>Module Competencies</h2>
@@ -575,8 +610,8 @@
 </table>
 <p>Analysis backed by the following resources:</p>
 <ul>
-<li><p><strong>Inclusive Education Framework</strong> of the University of Hull (<a href="https://www.hull.ac.uk/special/inclusive-education">Link</a>)</p></li>
-<li><p>Inclusive Assessment, Marking &amp; Feedback Policy (<a href="https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf">Link</a>)</p></li>
+<li><p><strong>Inclusive Education Framework</strong> (IEF) of Hull University (<a href="https://www.hull.ac.uk/special/inclusive-education">Link</a>)</p></li>
+<li><p><strong>Inclusive Assessment, Marking &amp; Feedback Policy</strong> of Hull University (<a href="https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf">Link</a>)</p></li>
 </ul>
 <p><strong>Evaluation Framework:</strong></p>
 <ul>
@@ -638,32 +673,31 @@
 <h2>Highlights of Evaluation</h2>
 <h3 id="area-of-enhancement">Area of Enhancement</h3>
 <p><code>Mathematics assessment is designed at the programme level,   giving students a manageable assessment load</code></p>
+<p><strong>Assessments sometime clash:</strong></p>
 <ul>
 <li><p>Mathematics assessment is <strong>indeed</strong> designed at the programme level</p></li>
 <li><p>Managing assessment load is <strong>tricky</strong></p>
 <ul>
 <li>Due to inherently high amount of content for Maths disciplines</li>
-<li>Partly due to limited staff and high turnover</li>
+</ul></li>
+<li><p><strong>Example:</strong> Statistical Models students in T2 had</p>
+<ul>
+<li>At least 1 more module with 10 Weekly Assignments</li>
+<li>At least 1 more module with Coursework due in last week of T2</li>
 </ul></li>
 </ul>
 </section>
-<section id="highlights-of-evaluation-4" class="slide level2 smaller">
-<h2>Highlights of Evaluation</h2>
-<h3 id="area-of-enhancement-1">Area of Enhancement</h3>
-<p><code>Mathematics assessment is designed at the programme level,   giving students a manageable assessment load</code></p>
+<section id="recommended-enhancement" class="slide level2 smaller">
+<h2>Recommended Enhancement</h2>
+<p><strong>Overassessment issue is structural and hard to solve</strong></p>
+<p><strong>Partial solutions to mitigate issues:</strong></p>
 <ul>
-<li>Statistical Models students in T2 had:
+<li>Best 7 Weekly Assignments count
 <ul>
-<li>At least 1 more module with 10 Weekly Assignments</li>
-<li>At least 1 more module with Coursework due in last week</li>
+<li><em>(<a href="https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback">Hull IEF Assessment &amp; Feedback</a> + Maths Department Policy)</em></li>
 </ul></li>
-<li>Mitigating these issues:
-<ul>
-<li>Best 7 Weekly Assignments count<br>
-<em>(<a href="https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback">Hull IEF Assessment &amp; Feedback</a> + Maths Department Policy)</em></li>
-<li>Coursework made available at beginning of T2<br>
+<li>I made Coursework available at beginning of T2 + discussed in class<br>
 <em>(Point 5 of <a href="https://www.hull.ac.uk/choose-hull/university-and-region/key-documents/docs/inclusive-assessment-marking-and-feedback-policy.pdf">Inclusive Assessment, Marking &amp; Feedback Policy</a>)</em></li>
-</ul></li>
 </ul>
 </section></section>
 <section>
@@ -688,19 +722,19 @@
 <h2></h2>
 <img data-src="images/IC_Checklist_3.png" class="r-stretch">
 </section>
-<section id="highlights-of-evaluation-5" class="slide level2 smaller">
+<section id="highlights-of-evaluation-4" class="slide level2 smaller">
 <h2>Highlights of Evaluation</h2>
 <h3 id="good-example">Good example</h3>
 <p><code>My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible</code></p>
+<p><strong>Digital Notes:</strong></p>
 <ul>
-<li><p>I always upload teaching material at least 24h before sessions</p></li>
 <li><p>Statistical Models: I inherited teaching material in the form of PDF format slides</p></li>
 <li><p>I wanted to use something more accessible than PDFs for my slides</p></li>
 <li><p>Employed digital publication framework <a href="https://quarto.org">Quarto</a> to write slides<br>
 <em>(The present set of slides is made with Quarto)</em></p></li>
 </ul>
 </section>
-<section id="highlights-of-evaluation-6" class="slide level2 smaller">
+<section id="highlights-of-evaluation-5" class="slide level2 smaller">
 <h2>Highlights of Evaluation</h2>
 <h3 id="good-example-3">Good example</h3>
 <p><code>My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible</code></p>
@@ -713,7 +747,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="highlights-of-evaluation-7" class="slide level2 smaller">
+<section id="highlights-of-evaluation-6" class="slide level2 smaller">
 <h2>Highlights of Evaluation</h2>
 <h3 id="good-example-4">Good example</h3>
 <p><code>My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible</code></p>
@@ -731,61 +765,85 @@
 </ul>
 <p>In line with <a href="https://libguides.hull.ac.uk/inclusiveeducationframework/Curriculum">Hull IEF Curriculum</a>: <strong>Demonstrate inclusion where possible</strong></p>
 </section>
+<section id="highlights-of-evaluation-7" class="slide level2 smaller">
+<h2>Highlights of Evaluation</h2>
+<h3 id="area-of-enhancement-1">Area of Enhancement</h3>
+<p><code>I work with students as active partners in curriculum design and delivery</code></p>
+<p><strong>Low engagement in Tutorials:</strong></p>
+<ul>
+<li>Statistical Models comprises weekly 1-hour Tutorials</li>
+<li>Lecturer reviews solutions to the previous week’s worksheet</li>
+<li>Traditional format which often leads to passive learning
+<ul>
+<li>students receive explanations for exercises they may have already completed</li>
+<li>low attendance and engagement</li>
+</ul></li>
+</ul>
+</section>
 <section id="highlights-of-evaluation-8" class="slide level2 smaller">
 <h2>Highlights of Evaluation</h2>
 <h3 id="area-of-enhancement-2">Area of Enhancement</h3>
-<p><code>I work with students as active partners in curriculum design and delivery</code></p>
+<p><strong>Possible solution:</strong></p>
 <ul>
-<li><p>Statistical Models comprises 2 Weekly Lectures of 2h each</p></li>
-<li><p>The amount of content covered in class is quite high</p></li>
-<li><p>Current lectures design is classical</p>
+<li><p>I considered involving students by having them present their solutions</p></li>
+<li><p>I successfully implemented this approach in past modules</p>
 <ul>
-<li>Deliver content with slides and whiteboard</li>
-<li>Foster engagement and assess understanding with direct questions</li>
+<li>Led to more popular and well-attended tutorials</li>
+<li>Students engaged in friendly competition, debating their solutions</li>
+<li>Fostered a sense of active participation in curriculum delivery</li>
 </ul></li>
-<li><p>Mixed results</p>
+</ul>
+<p><strong>Goal:</strong> Apply the same approach to the Statistical Models tutorials</p>
+</section>
+<section id="highlights-of-evaluation-9" class="slide level2 smaller">
+<h2>Highlights of Evaluation</h2>
+<h3 id="area-of-enhancement-3">Area of Enhancement</h3>
+<p><strong>Major impediments:</strong></p>
 <ul>
-<li>Students did not feel part of the class</li>
-<li>Low engagement during some of the more technical lectures</li>
+<li>Many exercises in Statistical Models require coding in R</li>
+<li><strong>Most students lack access to laptops</strong><br>
+<em>(raising concerns about digital exclusion)</em></li>
+<li>Holding all classes in computer labs is not feasible</li>
+</ul>
+<p><strong>Positive observation:</strong></p>
+<ul>
+<li>Every student has access to a smartphone or tablet</li>
+</ul>
+</section>
+<section id="highlights-of-evaluation-10" class="slide level2 smaller">
+<h2>Highlights of Evaluation</h2>
+<h3 id="area-of-enhancement-4">Area of Enhancement</h3>
+<p><strong>Exploring the literature:</strong></p>
+<ul>
+<li><p>Found the reference <span class="citation" data-cites="betts">[<a href="#/references" role="doc-biblioref" onclick="">1</a>]</span> very useful</p>
+<ul>
+<li>My notes on <span class="citation" data-cites="betts">[<a href="#/references" role="doc-biblioref" onclick="">1</a>]</span> are found in <strong>Reference 1</strong> in the <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></li>
+</ul></li>
+<li><p>Explores challenge of integrating technology into teaching</p></li>
+<li><p>Offers practical guidance by presenting 5 real-world examples of innovative technology use in education</p></li>
+<li><p>Real-world example #2</p>
+<ul>
+<li>Promoting self-directed learning through interactive presentations with <strong>hyperlinks</strong></li>
 </ul></li>
 </ul>
 </section>
-<section id="recommended-enhancements" class="slide level2 smaller">
-<h2>Recommended Enhancements</h2>
-<p>I wanted to find alternative teaching techniques to</p>
+<section id="recommended-enhancement-1" class="slide level2 smaller">
+<h2>Recommended Enhancement</h2>
+<p><strong>Practical solution:</strong> How to involve students in Tutorials</p>
 <ul>
-<li>Foster student engagement</li>
-<li>Make students into a collective</li>
-</ul>
-<p>Proposed enhancements <em>(Formative assessment)</em></p>
+<li><p>Include links to online R compilers in my tutorial solutions <em>(e.g.&nbsp;<a href="https://www.mycompiler.io/online-r-compiler">mycompiler.io</a>)</em></p></li>
+<li><p>Provide R code with missing sections</p></li>
+<li><p>Students can complete and run code in a browser</p>
 <ul>
-<li><em>Team tasks</em>
-<ul>
-<li>Students work collaboratively in teams on a problem</li>
-<li>Feedback shared across the group with teacher prompts</li>
+<li>can be done on <strong>tablets</strong> or <strong>smartphones</strong> <span class="math inline">\implies</span> <em>no computers needed</em></li>
 </ul></li>
-<li><em>Students as Teachers</em>
+<li><p>Students can share the online link to their code with me</p>
 <ul>
-<li>At the end of the task students explain solution to each other</li>
+<li>I can display their work on the projector</li>
+<li>facilitate group discussion around their solution</li>
 </ul></li>
-<li>These approaches are discussed in Reference 1 in the <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></li>
 </ul>
-</section>
-<section id="recommended-enhancements-1" class="slide level2 smaller">
-<h2>Recommended Enhancements</h2>
-<p>How to implement enhancements</p>
-<ul>
-<li>Already included numerous worked examples in the Statistical Models Slides</li>
-<li>Easily transform these examples into short tasks for students to solve in pairs</li>
-<li>To further stimulate student interest I can include tasks grounded in real-world applications</li>
-</ul>
-<p>Possible impediments</p>
-<ul>
-<li>I have already attempted this approach with a couple of tasks this year</li>
-<li>Students really appreciated</li>
-<li>Next year I plan to have 1 interactive task per lecture</li>
-<li>Low effort high gain strategy – I see no impediments in implementing it</li>
-</ul>
+<p><strong>Outcome:</strong> Students can present solutions <span class="math inline">\implies</span> <em>involved in curriculum delivery</em></p>
 </section></section>
 <section>
 <section id="sustainability-in-the-curriculum" class="title-slide slide level1 center" data-background-color="#cc0164" data-visibility="uncounted">
@@ -820,53 +878,123 @@
 <p><img data-src="images/ESD_logo.png" class="absolute" style="top: 430px; left: 700px; width: 300px; "></p>
 </div>
 </section>
-<section id="framework-1---un-sdgss" class="slide level2 smaller">
-<h2>Framework 1 - UN SDGSs</h2>
+<section id="framework-1---sdgs" class="slide level2 smaller">
+<h2>Framework 1 - SDGs</h2>
+<h3 id="statistical-models-meets-sdgs-4-and-8">Statistical models meets SDGs 4 and 8</h3>
 <div class="column" style="width:60%;">
-<p><br></p>
 <p><strong>Goal 4: Quality Education</strong></p>
 <p><code>Ensure inclusive and quality education for all and promote lifelong learning</code></p>
-</div>
-<div class="column" style="width:39%;">
-<p><img data-src="images/SDG4.png" class="absolute" style="top: 140px; left: 750px; width: 250px; height: 250px; "></p>
-</div>
-</section>
-<section id="framework-1---un-sdgss-1" class="slide level2 smaller">
-<h2>Framework 1 - UN SDGSs</h2>
-<div class="column" style="width:60%;">
 <p><br></p>
 <p><strong>Goal 8: Decent Work and Economic Growth</strong></p>
 <p><code>Promote inclusive and sustainable economic growth, employment and decent work for all</code></p>
 </div>
 <div class="column" style="width:39%;">
-<p><img data-src="images/SDG8.png" class="absolute" style="top: 140px; left: 750px; width: 250px; height: 250px; "></p>
+<p><img data-src="images/SDG4.png" class="absolute" style="top: 120px; left: 750px; width: 250px; height: 250px; "></p>
+<p><img data-src="images/SDG8.png" class="absolute" style="top: 390px; left: 750px; width: 250px; height: 250px; "></p>
 </div>
 </section>
-<section id="framework-1---un-sdgss-2" class="slide level2 smaller">
-<h2>Framework 1 - UN SDGSs</h2>
+<section id="good-examples" class="slide level2 smaller">
+<h2>Good examples</h2>
+<h3 id="sdg-4-quality-education">SDG 4: Quality Education</h3>
+<p><strong>Perform statistical analyses of real-world datasets:</strong></p>
 <ul>
-<li><p>SDGs already present in my module: 4 Quality Education (use principles of TP to evidence) 16 Peace and Justice (explain case study activity, note positive student feedback)</p></li>
-<li><p>My module’s Programme Competencies map closely to ESD competencies 1, 4 &amp; 7 (explain how these are taught and assessed, note intent to articulate this mapping to students)</p></li>
-<li><p>Plan to expand case studies for students to select from several appropriate SDG-aligned themes (e.g.&nbsp;SDG 5, 8, 12)</p></li>
-<li><p>Research staff/student co-design initiatives for SDG module integration</p></li>
-<li><p>ESD5 (collaborative working) could suit my module – explore recent pedagogic innovations in my discipline</p></li>
+<li>Task aligns with SDG 4 by fostering high-quality education</li>
+<li>Equips students with competencies in data interpretation + critical thinking</li>
+<li>Prepares students for real-world challenges</li>
+</ul>
+<p><strong>Report + Discuss statistical analyses:</strong></p>
+<ul>
+<li><p>Students develop communication skills and ability to convey findings</p></li>
+<li><p>Students become better prepared for future professional roles</p></li>
+<li><p>Supports SDG 4 by ensuring that students are not just consumers of knowledge but active contributors</p></li>
 </ul>
 </section>
-<section id="highlights-of-analysis" class="slide level2">
-<h2>Highlights of Analysis</h2>
-<p><strong>Good examples identified</strong></p>
+<section id="good-examples-1" class="slide level2 smaller">
+<h2>Good examples</h2>
+<h3 id="sdg-8-decent-work-and-economic-growth">SDG 8: Decent Work and Economic Growth</h3>
+<p><strong>Analysis of the ENRON scandal by looking at dataset of stock prices:</strong></p>
 <ul>
-<li>one</li>
-</ul>
-<p><strong>Areas of Enhancement</strong></p>
+<li><p>Task directly addresses SDG 8 by focusing on an instance of corporate governance failure</p>
 <ul>
-<li>two</li>
+<li>ENRON scandal had significant implications for economic stability and ethical business practices</li>
+</ul></li>
+<li><p>Students understand the impact of statistical analyses on business ethics and policy-making</p></li>
+<li><p>Equips students with knowledge to contribute positively to economic growth and decent work environments in their future careers</p></li>
 </ul>
 </section>
-<section id="recommended-enhancement" class="slide level2">
+<section id="framework-2---esd-competencies-checklist" class="slide level2 smaller">
+<h2>Framework 2 - ESD Competencies Checklist</h2>
+<img data-src="images/ESD_Checklist.png" class="r-stretch">
+</section>
+<section id="esd-competencies" class="slide level2 smaller">
+<h2>ESD Competencies</h2>
+<h3 id="good-examples-2">Good examples</h3>
+<p><strong>Systems thinking:</strong></p>
+<ul>
+<li><p>Statistical regressive models are designed to understand relationships between variables</p></li>
+<li><p>Nested models are used to compare relationships on different scales</p></li>
+<li><p>All Statistical Models can handle uncertainty</p></li>
+</ul>
+<p><strong>Anticipatory or Future thinking:</strong></p>
+<ul>
+<li><p>Module includes statistical analyses of real-world examples in Economics and Finance</p></li>
+<li><p>Outcome of statistical analyses is used to inform policy decisions</p></li>
+</ul>
+</section>
+<section id="esd-competencies-1" class="slide level2 smaller">
+<h2>ESD Competencies</h2>
+<h3 id="area-of-enhancement-5">Area of Enhancement</h3>
+<p><code>Collaborative working</code></p>
+<p><strong>Little room for collaboration in Lectures:</strong></p>
+<ul>
+<li><p>Statistical Models comprises 2 weekly 2-hour Lectures</p></li>
+<li><p>Current lectures design:</p>
+<ul>
+<li>Lecturer delivers content with slides and whiteboard</li>
+<li>Lecturer fosters engagement with direct questions</li>
+</ul></li>
+<li><p>This traditional format tends to</p>
+<ul>
+<li>foster passive learning</li>
+<li>lacks opportunities for student <strong>collaboration</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="highlights-of-evaluation-11" class="slide level2 smaller">
+<h2>Highlights of Evaluation</h2>
+<h3 id="area-of-enhancement-6">Area of Enhancement</h3>
+<p><strong>Exploring the literature:</strong></p>
+<ul>
+<li><p>Found the reference <span class="citation" data-cites="pokorny_assess">[<a href="#/references" role="doc-biblioref" onclick="">2</a>]</span> very useful</p>
+<ul>
+<li>My notes on <span class="citation" data-cites="pokorny_assess">[<a href="#/references" role="doc-biblioref" onclick="">2</a>]</span> are found in <strong>Reference 2</strong> in the <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></li>
+</ul></li>
+<li><p>Discusses the role of assessment in education</p></li>
+<li><p>Explores collaborative learning in formative assessment</p></li>
+<li><p><em>Team tasks</em></p>
+<ul>
+<li>Students work collaboratively towards solvinga a problem task</li>
+</ul></li>
+<li><p><em>Students as Teachers</em></p>
+<ul>
+<li>At the end of the problem task students explain solution to each other</li>
+</ul></li>
+</ul>
+</section>
+<section id="recommended-enhancement-2" class="slide level2 smaller">
 <h2>Recommended Enhancement</h2>
+<p><strong>Practical solution:</strong> Foster collaboration during Lectures</p>
 <ul>
-<li>For more details see Reference 2 in the <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></li>
+<li>Already included numerous worked examples in the Statistical Models Slides</li>
+<li>Easily transform these examples into short tasks for students to solve in pairs</li>
+<li>To promote interest I can include tasks grounded in real-world applications</li>
+</ul>
+<p><strong>Possible impediments:</strong></p>
+<ul>
+<li>I have already attempted this approach with a couple of tasks this year</li>
+<li>Students really appreciated</li>
+<li>Next year I plan to have 1 interactive task per Lecture</li>
+<li>Low effort high gain strategy – I see no impediments in implementing it</li>
 </ul>
 </section></section>
 <section>
@@ -881,7 +1009,7 @@
 <section id="approach-for-evaluation" class="slide level2">
 <h2>Approach for evaluation</h2>
 </section>
-<section id="highlights-of-analysis-1" class="slide level2">
+<section id="highlights-of-analysis" class="slide level2">
 <h2>Highlights of Analysis</h2>
 <p><strong>Good examples identified</strong></p>
 <ul>
@@ -892,7 +1020,7 @@
 <li>two</li>
 </ul>
 </section>
-<section id="recommended-enhancement-1" class="slide level2">
+<section id="recommended-enhancement-3" class="slide level2">
 <h2>Recommended Enhancement</h2>
 <ul>
 <li>For more details see Reference 3 in the <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></li>
@@ -918,12 +1046,23 @@
 <span id="cb1-4"><a href="" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span> = {https://www.silviofanzon.com/2024-Curriculum-Design-Slides/},</span>
 <span id="cb1-5"><a href="" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> = {2024}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="footer">
-<p><a href="https://www.silviofanzon.com/contact">Contact Me</a></p>
+<p><a href="javascript:history.back()">Go Back</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.silviofanzon.com/contact">Contact Me</a></p>
 </div>
-<p>footer: “<a href="./files/annotated_bibliography.pdf">Bibliography</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="./index.html#/license">License</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.silviofanzon.com/contact">Contact</a>”</p>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<h3 id="link-to-annotated-bibliography">Link to <a href="./files/annotated_bibliography.pdf">Annotated Bibliography</a></h3>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-
+<p><a href="./index.html#/references">Bibliography</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="./index.html#/license">License</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.silviofanzon.com/contact">Contact</a></p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-betts" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">T. Betts, Technology, tools and tips for active learning: <span>F</span>ive innovative ideas for integrating technology with your teaching, in: T. Betts, W. Garnham, P. Oprandi (Eds.), Disrupting Traditional Pedagogy: Active Learning in Practice, Brighton: University of Sussex Library, 2019: pp. 141–171. <a href="https://doi.org/10.20919/9780995786240">https://doi.org/10.20919/9780995786240</a>.</div>
+</div>
+<div id="ref-pokorny_assess" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">H. Pokorny, Assessment for <span>L</span>earning, in: H. Pokorny, D. Warren (Eds.), Enhancing <span>T</span>eaching <span>P</span>ractice in <span>H</span>igher <span>E</span>ducation, London: Sage, 2021: pp. 79–106.</div>
 </div>
 </div>
 </section></section>
@@ -974,10 +1113,10 @@
         controlsBackArrows: 'faded',
 
         // Display a presentation progress bar
-        progress: false,
+        progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
