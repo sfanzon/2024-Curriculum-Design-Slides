@@ -58,7 +58,7 @@ Evaluation of module **Statistical Models** across the themes
 2. Assessment & Feedback Design
 3. Inclusive & Decolonised curriculum
 4. Sustainability in the curriculum
-5. Global competence in the curriculum
+5. Global Competence in the curriculum
 
 
 
@@ -91,7 +91,29 @@ Evaluation of module **Statistical Models** across the themes
 **My experience:** Taught this module once in T2 2023/24
 
 
-## Module Competencies {.smaller}
+
+## Mathematics Programme Competencies 
+
+::: {style="font-size: 0.55em"}
+
+| Programme Competency | Description                                                                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| PC1                  | Performing calculations and manipulating equations in core areas of mathematics and some more advanced topics                                |
+| PC2                  | Solving mathematical problems in well-defined contexts by selecting and applying the appropriate techniques                                |
+| PC3                  | Solving real-world problems by abstracting the essentials and formulating them mathematically, obtaining solutions by appropriate analytic or numeric methods, and interpreting the results |
+| PC4                  | Logical reasoning, including identifying assumptions made and conclusions drawn, and giving proofs in well-defined contexts                  |
+| PC5                  | Communicating with specialists and non-specialists by contributing to discussions, and accurately, clearly and appropriately presenting arguments and conclusions in written and oral form |
+| PC7                  | Using computer technology from a range of given methods to obtain numerical solutions to problems, analyse data, and write mathematical documents |
+| PC8                  | Learning and working independently when given some guidance, solving problems with patience and persistence and managing time appropriately  |
+: {tbl-colwidths="[15,85]"}
+
+:::
+
+
+
+## Mapping PC to Statistical Models  {.smaller}
+
+::: {style="font-size: 0.90em"}
 
 |PCs | Programme Competency Summary | Mapping to Statistical Models |
 |:--:|:-----------|:------------|
@@ -101,10 +123,10 @@ Evaluation of module **Statistical Models** across the themes
 |PC4 | Logical reasoning                       |   Interpret results of Linear Models|
 |PC5 | Communication with experts and non-experts| How to report the findings |
 |PC7 | Using computer technology to obtain numerical solutions | How to use Linear Models in statistical software (R)|
-|PC8 | Learning and working independently        | Assessment promotes independent study |
+|PC8 | Learning and working independently        | Promoted through Assessment |
 : {tbl-colwidths="[6,47,47]"}
 
-
+:::
 
 
 
@@ -375,24 +397,26 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-## Highlights of Evaluation {.smaller}
-### Area of Enhancement
+## Possible solution {.smaller}
 
-**Possible solution:**
 
-- I considered involving students by having them present their solutions
+**Involve students by having them present their solutions**
 
 - I successfully implemented this approach in past modules
-    * Led to more popular and well-attended tutorials 
-    * Students engaged in friendly competition, debating their solutions
-    * Fostered a sense of active participation in curriculum delivery
+
+- Led to more popular and well-attended tutorials 
+
+- Students engaged in friendly competition, debating their solutions
+
+- Fostered a sense of active participation in curriculum delivery
     
+
 **Goal:** Apply the same approach to the Statistical Models tutorials
 
 
 
-## Highlights of Evaluation {.smaller}
-### Area of Enhancement
+## Possible solution {.smaller}
+
 
 **Major impediments:**
 
@@ -407,17 +431,13 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-## Highlights of Evaluation {.smaller}
-### Area of Enhancement
+## Exploring the literature {.smaller}
 
-**Exploring the literature:**
-
-- Found the reference [@betts] very useful
-    * My notes on [@betts] are found in **Reference 1** in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+**Addressing Digital Exclusion:** Reference [@betts]^[My notes on [@betts] are found in **Reference 1** in the [Annotated Bibliography](/files/annotated_bibliography.pdf)]
 
 - Explores challenge of integrating technology into teaching
 
-- Offers practical guidance by presenting 5 real-world examples of innovative technology use in education
+- Offers practical guidance through 5 real-world examples
 
 - Real-world example #2
     * Promoting self-directed learning through interactive presentations with **hyperlinks**
@@ -558,11 +578,10 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-
 ## ESD Competencies {.smaller}
 ### Good examples
 
-**Systems thinking:**
+``Systems thinking``
 
 - Statistical regressive models are designed to understand relationships between variables
 
@@ -571,7 +590,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 - All Statistical Models can handle uncertainty
 
 
-**Anticipatory or Future thinking:**
+``Anticipatory or Future thinking``
 
 - Module includes statistical analyses of real-world examples in Economics and Finance
 
@@ -599,13 +618,9 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-## Highlights of Evaluation {.smaller}
-### Area of Enhancement
+## Exploring the literature {.smaller}
 
-**Exploring the literature:**
-
-- Found the reference [@pokorny_assess] very useful
-    * My notes on [@pokorny_assess] are found in **Reference 2** in the [Annotated Bibliography](/files/annotated_bibliography.pdf) 
+**Strategies to foster collaboration:** Reference [@pokorny_assess]^[My notes on [@pokorny_assess] are found in **Reference 2** in the [Annotated Bibliography](/files/annotated_bibliography.pdf)]
 
 - Discusses the role of assessment in education
 
@@ -639,7 +654,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-# Global competence <br> in the curriculum {background-color="#cc0164" visibility="uncounted"}
+# Global Competence <br> in the curriculum {background-color="#cc0164" visibility="uncounted"}
 
 ::: footer
 
@@ -648,29 +663,214 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 :::
 
 
-## Approach for evaluation
-
-## Highlights of Analysis
-
-**Good examples identified**
-
-- one
-
-**Areas of Enhancement**
-
-- two
 
 
-## Recommended Enhancement
-
-- For more details see Reference 3 in the [Annotated Bibliography](/files/annotated_bibliography.pdf)
+## Uni of Hull Global Competence definitions {.smaller}
 
 
+::: {style="font-size: 0.63em"}
+
+| # | Global Competency                      | Description |
+|--------|----------------------------------------|-------------|
+| 1      | **Global Challenges**                  | Recognises challenges from a local to global level, such as the issues highlighted in the Sustainable Development Goals or the Earth Charter, acknowledging that such challenges cannot be tackled in isolation of each other. |
+| 2      | **Critical Awareness**                 | Has the capacity to reflect critically, effectively evaluating the importance and accuracy of information, continuously seeking to enrich their knowledge base. |
+| 3      | **Historical/Cultural Awareness**      | Is aware of the past influences on current situations, the present complexities of our different traditions, cultures and nations and has a deep understanding of the challenges of our collective future horizons. |
+| 4      | **Respect and Understanding Perspectives** | Respects the views of others, by reflecting on and articulating alternative perspectives and approaches, and has the capacity to integrate new perspectives into their world view. |
+| 5      | **Equity and Inclusion**               | Aspires to attain an unwavering ethical attitude towards social justice, equity, diversity and inclusivity believing in the transformative power of these principles, by welcoming differences from diverse backgrounds and giving everyone a voice. |
+| 6      | **Positive / Real World Action**       | Motivated by planetary challenges, has the capacity for sustained positive action, from a local to global level and drive change, united against intolerance, ignorance and discrimination in all its forms. |
+| 7      | **Lifelong Personal Growth**           | Understands that individual growth is an endless journey, and requires adaptability, ongoing self-reflection, self-regulation, lifelong learning, empathy, connection and action as well as the ability to work effectively within teams. |
+: {tbl-colwidths="[3,15,82]"}
+
+:::
+
+
+## Stat Models Programme Competencies 
+
+::: {style="font-size: 0.55em"}
+
+| Programme Competency | Description                                                                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| PC1                  | Performing calculations and manipulating equations in core areas of mathematics and some more advanced topics                                |
+| PC2                  | Solving mathematical problems in well-defined contexts by selecting and applying the appropriate techniques                                |
+| PC3                  | Solving real-world problems by abstracting the essentials and formulating them mathematically, obtaining solutions by appropriate analytic or numeric methods, and interpreting the results |
+| PC4                  | Logical reasoning, including identifying assumptions made and conclusions drawn, and giving proofs in well-defined contexts                  |
+| PC5                  | Communicating with specialists and non-specialists by contributing to discussions, and accurately, clearly and appropriately presenting arguments and conclusions in written and oral form |
+| PC7                  | Using computer technology from a range of given methods to obtain numerical solutions to problems, analyse data, and write mathematical documents |
+| PC8                  | Learning and working independently when given some guidance, solving problems with patience and persistence and managing time appropriately  |
+: {tbl-colwidths="[15,85]"}
+
+:::
+
+
+
+## Mapping PC to Global Competencies {.smaller}
+
+<br>
+
+::: {style="font-size: 0.7em"}
+
+| Programme Competencies | Global Challenges | Critical Awareness | Historical / Cultural Awareness | Respect & Understanding Perspectives | Equity and Inclusion | Positive / Real World Action | Lifelong Personal Growth |
+|------------------------|-------------------|--------------------|------------------------------|----------------------------------------|-----------------------|-----------------------------|--------------------------|
+| PC1                    | ❌                | ❌                 | ❌                           | ❌                                     | ❌                    | ❌                          | ❌                       |
+| PC2                    | ❌                | ✔️                 | ❌                           | ❌                                     | ❌                    | ❌                          | ❌                       |
+| PC3                    | ✔️                | ✔️                 | ❌                           | ❌                                     | ❌                    | ✔️                          | ❌                       |
+| PC4                    | ❌                | ✔️                 | ❌                           | ❌                                     | ❌                    | ❌                          | ❌                       |
+| PC5                    | ❌                | ✔️                 | ❌                           | ✔️                                     | ✔️                    | ✔️                          | ✔️                       |
+| PC7                    | ❌                | ❌                 | ❌                           | ❌                                     | ❌                    | ❌                          | ❌                       |
+| PC8                    | ❌                | ✔️                 | ❌                           | ❌                                     | ❌                    | ❌                          | ✔️                       |
+: {tbl-colwidths="[12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5]"}
+
+:::
+
+
+
+
+## Global Competencies {.smaller}
+### Good example
+
+``Critical Awareness``
+
+**Assignment: Evaluating the Effectiveness of Education Interventions**
+
+- Students are given
+    * dataset containing student performance metrics (i.e. test scores) 
+    * details about different educational interventions (i.e. tutoring programs)
+
+- Task: 
+    * use regression analysis to evaluate data
+    * determine which interventions have the most significant impact on student outcomes
+
+
+
+## How is the Competency met {.smaller}
+
+- **Critical Reflection:** Students must critically assess the effectiveness of various educational interventions
+
+- **Evaluating Accuracy** of their regression models
+    * checking for potential biases
+    * checking that model assumptions are met
+
+- **Continuous Improvement:** 
+    * Assignment encourages students to seek out additional methodologies to refine their analysis
+    * E.g. they may need to explore advanced regression techniques to improve their evaluation
+
+
+
+
+## Global Competencies {.smaller}
+### Areas of Enhancement
+
+- ``Global Challenges`` 
+- ``Historical / Cultural Awareness``
+- ``Respect & Understanding Perspectives``
+
+**Exceptional Example: Undergraduate supervision**
+
+- I supervised an undergraduate dissertation
+    * used methods taght in Statistical Models
+    * statistical analysis of Formula 1 races
+    * advanced the econometric understanding of Formula 1 modelling
+
+- Dissertation resulted in a publication in a prestigious economics journal [@2024-Fry-Bri-Fan] 
+
+
+## How are Global Competencies met {.smaller}
+
+``Global Challenges``
+
+- Relevance: 
+    * Paper addresses a problem with broader societal or global implications (e.g. sports modelling, economic forecasting, climate modelling)
+
+- Impact: 
+    * Paper contributes to the broader application of statistical and econometric methods in real-world scenarios (e.g. Formula 1 racing)
+
+
+
+
+## How are Global Competencies met {.smaller}
+
+``Historical / Cultural Awareness``
+
+- Contextual Understanding: 
+    * Paper contextualizes current research by exploring the historical development and use of statistical models (e.g. in sports analytics)
+
+
+``Respect & Understanding Perspectives``
+
+- Inclusion of Different Views: 
+    * Paper considers and address different perspectives
+    * Paper offers comparisons to existing alternative methods
+
+- Effective Communication: 
+    * Present complex mathematical ideas clearly to a broad audience
+
+
+
+
+## Recommended Enhancement {.smaller}
+
+**New assignment for Statistical Models:**
+
+- Students write a **short paper** on the Statistical Analysis of a problem
+
+- Problem is chosen from a list given by the Lecturer
+
+
+**Major difficulties:**
+
+- Sourcing problem topics
+    * I can re-use case studies already present in current Coursework 
+
+- Marking rubric (what makes a good paper?)
+    * Important: Originality will not be a requirement
+    * Elements of good mathematical analysis and communication must be met
+
+
+
+## Exploring the literature {.smaller}
+
+**Devising Marking Rubric:** Reference [@pak]^[My notes on [@pak] are found in **Reference 3** in the [Annotated Bibliography](/files/annotated_bibliography.pdf)] 
+
+- Critical role of clarity in academic writing, particularly in mathematical papers
+  * Enhance a researcher's visibility
+  * Increase the likelihood of citations
+
+- Provides a comprehensive guide to the publication process in mathematics
+  * Structuring a paper
+  * Proper referencing
+  * Effective writing styles
+  * Tips for using LaTeX
+
+- Insights + My own experience can be used to design Marking Rubric
+
+
+
+
+## References
+ 
+::: {style="font-size: 0.91em"}
+
+::: {#refs}
+:::
+
+:::
+
+Link to [Annotated Bibliography](/files/annotated_bibliography.pdf)
+
+
+::: footer
+
+<a href="javascript:history.back()">Go Back</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+[Contact Me](https://www.silviofanzon.com/contact)
+
+:::
 
 
 
 ## License {.smaller}
 
+::: {style="font-size: 0.91em"}
 
 ::: {.column width="60%"}
 This work is licensed under 
@@ -700,7 +900,6 @@ BibTex citation:
 	year = {2024}}
 ```
 
-
 ::: footer
 
 <a href="javascript:history.back()">Go Back</a>
@@ -709,8 +908,4 @@ BibTex citation:
 
 :::
 
-
-
-
-## References
-### Link to [Annotated Bibliography](/files/annotated_bibliography.pdf)
+:::
