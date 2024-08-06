@@ -837,7 +837,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 - Provides a comprehensive guide to the publication process in mathematics
   * Structuring a paper
   * Proper referencing
-  * Effective writing styles
+  * Effective writing styles (Maths)
   * Tips for using LaTeX
 
 - Insights from [@pak] + My own experience can be used to design Marking Rubric
