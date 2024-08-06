@@ -1,6 +1,5 @@
 ---
-title: "Curriculum Design"
-subtitle: "Evaluation of the module <br> Statistical Models"
+title: "Curriculum evaluation <br> for Statistical Models"
 from: markdown+emoji
 author: 
     - name: Dr. Silvio Fanzon
@@ -885,7 +884,7 @@ This work is licensed under
 
 For attribution please cite this work as:
 
-> Fanzon, Silvio (2024). *Slides on Curriculum Design*.  
+> Fanzon, Silvio (2024). *Curriculum evaluation for Statistical Models*.  
 [https://www.silviofanzon.com/2024-Curriculum-Design-Slides/](https://www.silviofanzon.com/2024-Curriculum-Design-Slides/)
 
 
@@ -895,7 +894,7 @@ BibTex citation:
 ```bibtex
 @electronic{Fanzon-Curriculum-Design-2024,
 	author = {Fanzon, Silvio},
-	title = {Slides on Curriculum Design},
+	title = {Curriculum evaluation for Statistical Models},
 	url = {https://www.silviofanzon.com/2024-Curriculum-Design-Slides/},
 	year = {2024}}
 ```
