@@ -840,7 +840,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
   * Effective writing styles
   * Tips for using LaTeX
 
-- Insights + My own experience can be used to design Marking Rubric
+- Insights from [@pak] + My own experience can be used to design Marking Rubric
 
 
 
