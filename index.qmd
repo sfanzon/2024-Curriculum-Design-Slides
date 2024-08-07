@@ -389,7 +389,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 `I work with students as active partners in curriculum design and delivery`
 
-**Low engagement in Tutorials:**
+**(Sometimes) Low engagement in Tutorials:**
 
 - Statistical Models comprises weekly 1-hour Tutorials
 - Lecturer reviews solutions to the previous week’s worksheet
