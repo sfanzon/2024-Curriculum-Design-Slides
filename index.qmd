@@ -337,7 +337,7 @@ In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclu
 
 `My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
 
-**Digital Notes:**
+**Digital Slides:**
 
 - Statistical Models: I inherited teaching material in the form of PDF format slides 
 
