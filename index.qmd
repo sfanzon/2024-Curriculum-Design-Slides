@@ -353,7 +353,10 @@ In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclu
 
 `My teaching resources are made available in appropriate accessible formats in advance of scheduled teaching sessions wherever possible`
 
-- My slides are available in digital HTML format to view in browsers ([Link](https://www.silviofanzon.com/2024-Statistical-Models-Slides/))
+- Statistical Models digital HTML slides are available at
+    * [silviofanzon.com/2024-Statistical-Models-Slides](https://www.silviofanzon.com/2024-Statistical-Models-Slides/)
+
+- Digital slides can be viewed in browsers
     * Allows for easy viewing on various devices, including smartphones
     * Facilitates the use of accessibility features on smart devices  
     *(e.g. text magnification, contrast enhancement)*
