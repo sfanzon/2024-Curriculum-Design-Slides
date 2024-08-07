@@ -158,12 +158,12 @@ to Data Science Pathway are:
 
 - **Statistical Models** is part of **BSc in Mathematics**
 
-- BSc in Mathematics meets standards of the
+- BSc in Mathematics at Hull meets standards of the
     * Quality Assurance Agency (QAA)
     * As detailed in the [Subject Benchmark Statement](https://www.qaa.ac.uk/docs/qaa/sbs/sbs-mathematics-statistics-and-operational-research-23.pdf?sfvrsn=5c71a881_12) for **MSOR**
     * **MSOR:** Mathematics, Statistics & Operations Research
 
-- BSc in Mathematics is accredited by
+- BSc in Mathematics at Hull is accredited by
     * Institute of Mathematics and its Applications (IMA)
     * IMA accredits courses which meet its [requirements](https://ima.org.uk/university-degree-programme-accreditation/)
     * Graduates attain the **IMA Chartered Mathematician status**
@@ -221,7 +221,7 @@ Analysis backed by the following resources:
 - Maths Department Policy: Students allowed to miss small # of Worksheets  
 *(avoiding the University’s mitigating circumstances process)*
 - Allows students freedom to prioritise their preferred topics  
-*(all topics are eventuallu assessed via Coursework at the end of the module)*
+*(all topics are eventually assessed via Coursework at the end of the module)*
 
 In line with [Hull IEF Assessment & Feedback](https://libguides.hull.ac.uk/inclusiveeducationframework/Assessment-and-Feedback)
 
