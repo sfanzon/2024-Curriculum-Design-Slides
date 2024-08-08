@@ -727,7 +727,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-## Global Competencies {.smaller}
+## Highlights of Evaluation {.smaller}
 ### Good example
 
 ``Critical Awareness``
@@ -759,7 +759,7 @@ In line with [Hull IEF Curriculum](https://libguides.hull.ac.uk/inclusiveeducati
 
 
 
-## Global Competencies {.smaller}
+## Highlights of Evaluation {.smaller}
 ### Areas of Enhancement
 
 - ``Global Challenges`` 
