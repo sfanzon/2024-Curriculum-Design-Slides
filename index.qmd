@@ -876,12 +876,12 @@ Link to [Annotated Bibliography](/files/annotated_bibliography.pdf)
 
 ::: {.column width="60%"}
 This work is licensed under 
-[CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 :::
 
 
 ::: {.column width="38%"}
-![](/by-nc-nd.png){width=2in}
+![](/by.png){width=2in}
 :::
 
 
