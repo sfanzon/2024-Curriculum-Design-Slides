@@ -13,7 +13,7 @@ format:
       theme: [default, custom-theme-slides.scss]
       slide-number: true
       progress: true
-      footer: "[Bibliography](/index.html#/references) &nbsp;&nbsp;&nbsp;&nbsp; [License](/index.html#/license) &nbsp;&nbsp;&nbsp;&nbsp; [Contact](https://www.silviofanzon.com/contact)"
+      footer: "[Bibliography](/index.html#/references) &nbsp;&nbsp;&nbsp;&nbsp; [Video Presentation](https://youtu.be/n-x5ultCF5k) &nbsp;&nbsp;&nbsp;&nbsp; [License](/index.html#/license) &nbsp;&nbsp;&nbsp;&nbsp; [Contact](https://www.silviofanzon.com/contact)"
       transition: none
       background-transition: fade
       preview-links: true
