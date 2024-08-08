@@ -34,9 +34,7 @@ format:
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
 
-
 favicon: images/favicon.png
-
 ---
 
 
@@ -59,8 +57,9 @@ Evaluation of module **Statistical Models** across the themes
 4. Sustainability in the curriculum
 5. Global Competence in the curriculum
 
+<br>
 
-
+Video presentation available on [YouTube](https://youtu.be/n-x5ultCF5k)
 
 
 # Curricular Context {background-color="#cc0164" visibility="uncounted"}
