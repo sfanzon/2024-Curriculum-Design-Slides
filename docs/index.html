@@ -1584,7 +1584,7 @@
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: true,
+        previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
         transition: 'none',
@@ -1715,8 +1715,6 @@
               if (link.getAttribute("rel") === null) {
                 link.setAttribute("rel", "noopener");
               }
-              // default icon
-              link.classList.add("external");
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

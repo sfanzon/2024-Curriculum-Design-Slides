@@ -11,14 +11,14 @@ author:
 format: 
     revealjs:
       theme: [default, custom-theme-slides.scss]
+      preview-links: false
+      link-external-icon: false
+      link-external-newwindow: true
       slide-number: true
       progress: true
       footer: "[Bibliography](/index.html#/references) &nbsp;&nbsp;&nbsp;&nbsp; [Video Presentation](https://youtu.be/n-x5ultCF5k) &nbsp;&nbsp;&nbsp;&nbsp; [License](/index.html#/license) &nbsp;&nbsp;&nbsp;&nbsp; [Contact](https://www.silviofanzon.com/contact)"
       transition: none
       background-transition: fade
-      preview-links: true
-      link-external-icon: true
-      link-external-newwindow: true
       number-sections: false
       touch: true
       callout-icon: false
