@@ -17,6 +17,8 @@ format:
       transition: none
       background-transition: fade
       preview-links: true
+      link-external-icon: true
+      link-external-newwindow: true
       number-sections: false
       touch: true
       callout-icon: false
